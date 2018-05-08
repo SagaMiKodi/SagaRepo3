@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<setting id="max_per_page" label="Max Per Page" type="number" default="40" />
+	<setting id="youtube" type="enum" label=" בחר נגן לYOUTUBE" values="Youtube|MyYoutube" default="0" />
+	<setting type="lsep" />
+	<setting id="pass" type="text" label="סיסמא" default=""/>
+	<setting id="action" type="action" label="קוד חומרה" action="RunPlugin(plugin://plugin.video.ghost/default.py?mode=9&url=clearCache)" option="close"/>
+	<setting type="lsep" />
+	<setting id="Progress" label="הצג התקדמות" type="bool" default="true"/>
+</settings>

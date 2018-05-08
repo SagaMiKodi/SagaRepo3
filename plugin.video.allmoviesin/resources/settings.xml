@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="הגדרות כלליות">
+	<setting id="lang" type="enum" label="בחר שפה" values="עברית|אנגלית" default="1" />
+	<setting label="" type="lsep"/>
+	<setting id="dp" label="הצג מד התקדמות" type="bool" default="true" />
+	<setting label="" type="lsep"/>
+	<setting id="trailer_dp" label="הצג טריילר בחיפוש מקורות" type="bool" default="false" />
+	<setting id="simple_d" label="תצוגת מקורות פשוטה יותר" type="bool" default="true" />
+	<setting id="fast_play2" label="ניגון מהיר לפי הסדר" type="bool" default="false" />
+	<setting id="trailer_wait" label="המתן לסיום הטריילר לפני הניגון האוטומטי" type="bool" default="true" />
+	<setting label="" type="lsep"/>
+	<setting id="save_time"  type="number"  label="מס' שעות לשמירת מקורות בזכרון" visible="true" default="72"/>
+	<setting id="all_t" label="כל המקורות ברשימה אחת" type="bool" default="false" />
+	<setting id="order" type="enum" label="סדר מקורות לפי" values="איכות|תאימות לכתוביות|סידור משולב" default="0" />
+	<setting id="players" type="enum" label="בחר נגנים" values="Quasar|Pulsar|KmediaTorrent|Torrenter|YATP|XBMCtorrent'" default="3" />
+	<setting label="שרת SP" type="lsep"/>
+	<setting id="domain_sp" type="text" label="DOAMIN SP" default="sppw.xyz" />
+	
+	
+	<setting label="Sdarot.tv" type="lsep"/>
+	<setting id="username" label="שם משתמש" type="text" default="" />
+	<setting id="Password_sdr" type="text" option = "hidden" label="סיסמא" default=""/>
+	<setting label="Trakt" type="lsep"/>
+	<setting label="אפס אישור Trakt" option="close" type="action" action="RunPlugin(plugin://plugin.video.allmoviesin?mode=30&url=www)"/>
+	
+	</category>
+	<category label="כתוביות">
+	<setting label="Subscenter" type="lsep"/>
+	<setting id="Email" label="מייל" type="text" default="meni4321@gmail.com" />
+	<setting id="Password" type="text" option = "hidden" label="סיסמא" default="meni1234"/>
+	<setting label="בדיקת כתוביות" type="lsep"/>
+	<setting id="check_subs" label="סמן פריטים ללא כתוביות" type="bool" default="false" />
+	<setting id="disapear" label="העלם פריטים ללא כתוביות " type="bool" default="false" />
+	</category>
+	<category label="שרתים">
+	<setting id="time_s"  type="number"  label=" זמן מקסימלי לחיפוש שרתים (בשניות)" visible="true" default="30"/>
+	<setting id="ftp" label="מקורות מ ftp" type="bool" default="true" />
+	<setting id="ftp_size"  type="number"  label="גודל קובץ מקסימלי בGB " visible="true" default="5"/>
+	<setting id="filep" label="מקורות מ filep" type="bool" default="true" />
+	<setting id="filter_fp" label="הפעל סינון מקורות לא טובים מ FileP" type="bool" default="true" />
+	<setting id="tmp" label="מקורות מ tmp" type="bool" default="true" />
+	<setting id="ava" label="מקורות מ ava" type="bool" default="true" />
+	<setting id="cooltvzion" label="מקורות מ cooltvzion" type="bool" default="true" />
+	<setting id="dl20" label="מקורות מ dl20" type="bool" default="true" />
+	<setting id="hdonline" label="מקורות מ hdonline" type="bool" default="true" />
+	<setting id="showbox" label="מקורות מ showbox" type="bool" default="true" />
+	<setting id="daily" label="מקורות מ daily" type="bool" default="true" />
+	<setting id="sp" label="מקורות מ sp" type="bool" default="true" />
+	<setting id="gos" label="מקורות מ GOSTREAM" type="bool" default="true" />
+	<setting id="cin" label="מקורות מ Cin" type="bool" default="true" />
+	<setting id="sc" label="מקורות מ SC" type="bool" default="true" />
+	<setting id="sil" label="מקורות מ SERIL" type="bool" default="true" />
+	<setting id="put" label="מקורות מ PUT" type="bool" default="true" />
+	<setting id="flix" label="מקורות מ flix" type="bool" default="true" />
+	<setting id="cmovies" label="מקורות מ cmovies" type="bool" default="true" />
+	<setting id="DW" label="מקורות מ DW" type="bool" default="true" />
+	<setting id="we" label="מקורות מ WE" type="bool" default="true" />
+	<setting id="dire" label="מקורות מ dire" type="bool" default="true" />
+	<setting id="upto" label="מקורות מ upto" type="bool" default="true" />
+	<setting id="seehd" label="מקורות מ shd" type="bool" default="true" />
+	<setting id="afdah" label="מקורות מ afdah" type="bool" default="true" />
+	<setting id="pf" label="מקורות מ pf" type="bool" default="true" />
+	<setting id="dlt" label="מקורות מ dlt" type="bool" default="true" />
+	<setting id="m4u" label="מקורות מ m4u" type="bool" default="true" />
+	<setting id="magnet" label="מקורות מ magnet" type="bool" default="true" />
+	<setting id="ct" label="מקורות מ ct" type="bool" default="true" />
+	<setting id="sd" label="מקורות מ sdarot" type="bool" default="true" />
+	<setting id="lk" label="מקורות מ LK" type="bool" default="true" />
+	<setting id="uni" label="מקורות מ UNI" type="bool" default="true" />
+	<setting id="onitube" label="מקורות מ onitube" type="bool" default="true" />
+	<setting id="tvl" label="מקורות מ tvl" type="bool" default="true" />
+	<setting id="req" label="מקורות מ req" type="bool" default="true" />
+	<setting id="movisk" label="מקורות מ movisk" type="bool" default="true" />
+	<setting id="get" label="מקורות מ get" type="bool" default="true" />
+	<setting id="su" label="מקורות מ su" type="bool" default="true" />
+	<setting id="kizi" label="מקורות מ kizi" type="bool" default="true" />
+	<setting id="bmovie" label="מקורות מ bmovie" type="bool" default="true" />
+	<setting id="1movie" label="מקורות מ 1movie" type="bool" default="true" />
+	</category>
+	<category label="Real Debrid">
+	<setting id="rdsource" label="מקורות RD" type="bool" default="false" />
+	<setting id="rd_tvr" label="מקורות מ tvr" type="bool" default="true" />
+	<setting id="2ddl" label="מקורות מ  2dl" type="bool" default="true" />
+	<setting id="scn" label="מקורות מ scn" type="bool" default="true" />
+	</category>
+	<category label="שרתים מדובבים">
+	<setting id="movix" label="מקורות מ mx" type="bool" default="true" />
+	<setting id="fun" label="מקורות מ fun" type="bool" default="true" />
+	<setting id="snow" label="מקורות מ snow" type="bool" default="true" />
+	<setting id="list" label="מקורות מ list" type="bool" default="true" />
+	<setting id="jksp" label="מקורות מ jksp" type="bool" default="true" />
+	</category>
+	<category label="שרת מקומי">
+
+	<setting id="serveroption" type="bool" label="שימוש בשרת מקומי?" default="false" />
+	<setting id="server" type="text" label="כתובת שרת לפתירת" default="" visible= "eq(-1,true)" enable="eq(-1,true)" />
+	</category>
+	<setting label="trakt access token" id="trakt_access_token" type="text" visible="false" />
+	<setting label="trakt refresh token" id="trakt_refresh_token" type="text" visible="false" />
+	<setting label="trakt refresh token" id="trakt_expires_at" type="text" visible="false" />
+</settings>
